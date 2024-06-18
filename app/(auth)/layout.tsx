@@ -6,7 +6,7 @@ type AuthLayoutProps = {
   children: React.ReactNode;
 };
 
-export default function ({ children }: AuthLayoutProps) {
+export default function AuthLayout({ children }: AuthLayoutProps) {
   return (
     <div className="min-h-screen grid grid-cols-1  lg:grid-cols-2 ">
       <div className="h-full lg:flex flex-col items-center jusitfy-center px-4 ">
