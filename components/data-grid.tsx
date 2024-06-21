@@ -18,16 +18,16 @@ export const DataGrid = () => {
   if (isLoading) {
     return (
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 pb-2 mb-8">
-        <DataCardSkeleton />;
-        <DataCardSkeleton />;
-        <DataCardSkeleton />;
+        <DataCardSkeleton />
+        <DataCardSkeleton />
+        <DataCardSkeleton />
       </div>
     );
   }
 
   return (
     <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 pb-2 mb-8">
-      {dateRangeLabel}
+      {/* {dateRangeLabel} */}
       <DataCard
         title="Remaining"
         value={data?.remainingAmount}
